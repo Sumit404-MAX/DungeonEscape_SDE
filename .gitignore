@@ -1,0 +1,38 @@
+# Unreal Engine Specific Ignored Folders
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Visual Studio and IDE specific files
+.vscode/
+.vs/
+*.VC.db
+*.opensdf
+*.opendb
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.idea/
+
+# ---------------------------------------------------
+# PORTFOLIO OPTIMIZATION: HEAVY ASSETS TO IGNORE
+# ---------------------------------------------------
+
+# Heavy External Asset Packs
+Content/AdvancedVillagePack/
+Content/Fab/
+Content/Fantastic_Village_Pack/
+Content/HandPaintedEnvironment/
+Content/StarterContent/
+Content/UE/
+
+# Heavy Assets inside Coursera folder
+Content/Coursera/Stylized_Egypt/
+Content/Coursera/textures/
+Content/Coursera/VFX/
+Content/Coursera/mixamo/Characters/
+Content/Coursera/mixamo/Animation/
