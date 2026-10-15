@@ -13,14 +13,16 @@ Build/
 *.opendb
 *.sdf
 *.sln
+*.slnx
 *.suo
 *.xcodeproj
 *.xcworkspace
-*.idea/
+.idea/
+UpgradeLog*.htm
 
-# ---------------------------------------------------
-# PORTFOLIO OPTIMIZATION: HEAVY ASSETS TO IGNORE
-# ---------------------------------------------------
+# Ignore StarterContent External Actors & Objects
+Content/__ExternalActors__/StarterContent/
+Content/__ExternalObjects__/StarterContent/
 
 # Heavy External Asset Packs
 Content/AdvancedVillagePack/
@@ -30,9 +32,15 @@ Content/HandPaintedEnvironment/
 Content/StarterContent/
 Content/UE/
 
-# Heavy Assets inside Coursera folder
-Content/Coursera/Stylized_Egypt/
+# Heavy Assets inside Coursera folder (Keep Maps & Montages!)
+Content/Coursera/Stylized_Egypt/**
+!Content/Coursera/Stylized_Egypt/Maps/
+!Content/Coursera/Stylized_Egypt/Maps/DungeonEscapeMap.umap
+!Content/Coursera/Stylized_Egypt/Maps/_GENERATED/
+!Content/Coursera/Stylized_Egypt/Maps/_GENERATED/**
 Content/Coursera/textures/
 Content/Coursera/VFX/
 Content/Coursera/mixamo/Characters/
-Content/Coursera/mixamo/Animation/
+Content/Coursera/mixamo/Animation/**
+!Content/Coursera/mixamo/Animation/**/
+!Content/Coursera/mixamo/Animation/**/*Montage*.uasset
